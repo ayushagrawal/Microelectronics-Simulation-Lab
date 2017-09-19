@@ -1,0 +1,5 @@
+The MATLAB code files implement the following:
+
+Setup the poisson equation for a n-MOS capacitor (follow Brew's approach in Sze's book) and numerically solve (don't calculate the empirical solution, solve numerically). Determine energy band diagram and semiconductor charges along the depth. Find semiconductor charge vs. applied voltage, and calculate the LFCV curve. Solve for different oxide thickness, gate work function and channel doping (uniform). 
+Compare the semiconductor charge versus voltage from numerical simulation to that from empirical solution (compute the empirical solution given in the book). Compare the depletion layer width from numerical simulation and analytical solution (depletion approximation). 
+Calculate the impact of interface trap density (take few values) on LFCV curve. Use (a) donor like all throughout the bandgap and (b) acceptor like on the upper and donor like in the lower part of the bandgap. Assume that the traps contribute only to voltage shift and not to capacitance (refer to theory). 
